@@ -1,0 +1,30 @@
+
+.list-group{
+  // creating config for piped
+  &-piped{
+    .list-group-item{
+      position: relative;
+      &:not(:first-child){
+        &:before{
+          content: '/';
+          position: absolute;
+          left: -10%;
+          display: inline-block;
+        }
+      }
+    }
+  }
+  a{
+    color: currentColor;
+    &:hover{
+      color: $primary;
+    }
+  }
+  //Using margin to separate elements
+  &-item{
+    &:not(:last-child){
+      margin-right: $spacer;
+    }
+
+  }
+}

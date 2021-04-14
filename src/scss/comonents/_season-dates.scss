@@ -2,7 +2,7 @@
   display: flex;
   margin: 1rem 0;
   align-items: center;
-  @include media-breakpoint-down(sm){
+  @include media-breakpoint-down(lg){
     display: block;
     text-align: center;    
 }
@@ -14,7 +14,7 @@
     margin-right: 2rem;
     letter-spacing: 0.5px;
     color: #565656;
-    @include media-breakpoint-down(sm){
+    @include media-breakpoint-down(lg){
       margin-bottom: 1rem;  
       margin-right: 0;       
   }

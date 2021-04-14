@@ -1,5 +1,6 @@
 // 1. Include functions first
 @import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // 2. Include the default variable changes
 @import "./abstracts/custom-variables";
@@ -23,12 +24,22 @@
 @import "../../node_modules/bootstrap/scss/mixins/breakpoints";
 @import "../../node_modules/bootstrap/scss/forms";
 @import "../../node_modules/bootstrap/scss/transitions";
+@import "../../node_modules/bootstrap/scss/pagination";
+@import "../../node_modules/bootstrap/scss/accordion";
+@import "../../node_modules/bootstrap/scss/alert";
+@import "../../node_modules/bootstrap/scss/badge";
+@import "../../node_modules/bootstrap/scss/breadcrumb";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/list-group";
+@import "../../node_modules/bootstrap/scss/nav";
 
 // 5. Boostrap blocks
 @import "./bs-blocks/bs-blocks";
 
 // 6. Integral blocks
 @import "./integral/integral";
+
+@import "./comonents/components";
 
 // 7. Hanazono blocks
 @import "./hanazono-blocks/hanazono-blocks";

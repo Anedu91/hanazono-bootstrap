@@ -1,0 +1,7 @@
+
+.accordion-item{
+  
+  &:not(:last-child){
+    margin-bottom: $spacer;
+  }
+}

@@ -1,0 +1,15 @@
+.pagination{
+  .page-item{
+    display: none;
+    &.next{
+      display: inline-block;
+    }
+    &.prev{
+      display: inline-block;
+    }
+    @include media-breakpoint-up(md){
+      display: inline-block;
+    }
+  }
+}
+
