@@ -1,0 +1,25 @@
+.btn{
+ &-primary{
+   color: $white;
+   &:hover{
+     color: $white;
+   }
+ } 
+
+ &-black{
+  color: $primary;
+}
+&-arrow{
+  font-weight: normal;
+  position: relative;
+
+  &::after{
+    display: inline-block;
+    content: "\27F6";
+    margin-left: 1rem;
+  }
+  &:hover{
+    font-weight: 500;
+  }
+}
+}
